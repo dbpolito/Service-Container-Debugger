@@ -1,0 +1,22 @@
+{
+    "name": "berry-beans/service-container-debugger",
+    "description": "Inspect the Laravel IoC Container from Artisan.",
+    "keywords": ["laravel", "command", "container", "debug"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prabhat Shahi",
+            "email": "pra_shahi@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "BerryBeans\\ServiceContainerDebugger": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
