@@ -1,6 +1,6 @@
 # Container Debug
 
-The container debug command can be used to inspect the Laravel four service container. It's similar to the container:debug from the Symfony framework. It will show a list of all bindings, their types, values if scalar, and the time it takes to resolve each binding.
+The container debug command can be used to inspect the Laravel 5 service container. It's similar to the container:debug from the Symfony framework. It will show a list of all bindings, their types, values if scalar, and the time it takes to resolve each binding.
 
 ## Installation
 
@@ -12,7 +12,7 @@ Now run...
 
     composer update
 
-to download the package. Now add the service provider to your project configuration at `app/config/app.php`.
+to download the package. Now add the service provider to your project configuration at `config/app.php`.
 
     'providers' => array(
         'Illuminate\Foundation\Providers\ArtisanServiceProvider',
